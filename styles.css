@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(212, 45%, 89%);
+}
+
+.card {
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 1rem;
+}
+
+.card-image img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.content{
+  padding: 20px;
+  font-weight: 400;
+  font-family: 'Outfit', sans-serif; 
+  text-align: center;
+}
+
+.title{
+  color: hsl(218, 44%, 22%);
+  font-weight: 700;
+}
+
+.description{
+  margin-top: 20px; 
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution{
+  width: 100vw;
+  background-color: hsl(212, 45%, 89%);
+  text-align: center;
+}
+a{
+  font-size: 400;
+  color: hsl(220, 15%, 55%);
+}
+
